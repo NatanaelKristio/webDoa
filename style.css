@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:bisque;
+    color: black;
+}
+
+header {
+    background-color:bisque;
+    color: white;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 20px;
+    font-size: 1.8rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    
+}
+
+.hero {
+    background-image: url("foto/5bb716f944d6e279bb63fc9c85aa627f.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.hero h2{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p{
+    font-size: 1.2rem;
+}
+
+.content{
+    padding: 3rem, 4rem;
+    max-width: 900px;
+    margin: auto;
+    align-items: center;
+}
+
+.content h3{
+    text-align: center;
+}
+
+.content p{
+    text-align: center;
+}
+
+.list-doa{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.doa-doa{
+    background: #f3f3f3;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.doa-doa:hover{
+    transform: translateY(-12px) scale(1.03);
+    box-shadow:
+      0 15px 40px rgba(255 64 129 / 0.4),
+      0 6px 15px rgba(124 77 255 / 0.4);
+    outline: none;
+    z-index: 5;
+    transition: transform 0.4s ease;
+    transform: scale(1.1) rotate(3deg);
+}
+
+.contact{
+    text-align: center;
+    align-items: center;
+    border: #f3f3f3;
+    margin-bottom: 20px;
+}
+
+.contact button{
+    padding: 0.8rem 2rem;
+    background: #2e2e2e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.project {
+    text-align: center;
+    font-size: 0.9rem;
+    color: black;
+    margin-top: 24px;
+}
