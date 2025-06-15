@@ -1,8 +1,14 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:bisque;
     color: black;
+    
 }
 
 header {
@@ -21,7 +27,7 @@ header h1 {
 nav a {
     color: white;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 10px;
     font-weight: 500;
     
 }
@@ -30,7 +36,7 @@ nav a {
     background-image: url("foto/5bb716f944d6e279bb63fc9c85aa627f.jpg");
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     text-align: center;
     align-items: center;
@@ -89,14 +95,14 @@ nav a {
     transform: scale(1.1) rotate(3deg);
 }
 
-.contact{
+.contact1{
     text-align: center;
     align-items: center;
     border: #f3f3f3;
     margin-bottom: 20px;
 }
 
-.contact button{
+.contact1 button{
     padding: 0.8rem 2rem;
     background: #2e2e2e;
     color: white;
